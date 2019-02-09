@@ -1,0 +1,38 @@
+body {
+    margin: 30px;
+
+}
+
+#main {color: white;
+background-color: darkcyan;
+padding: 20px;
+margin: 10px;
+
+}
+.row2 {padding: 10px;
+margin: 0px;
+font-size: 25px;
+border: 2px solid darkcyan;
+}
+
+#submit-btn {
+    background-color: darkcyan;
+    font-weight: bold;
+    padding: 5px 25px ;
+    color: white;
+    float: right;
+}
+#res {
+    font-size: 25px;
+    font-weight:bold;
+    color: black;
+
+}
+#output-h {
+    margin-left: 10px;
+}
+.last-row {
+    margin-top: 15px;
+    color: rgb(1, 13, 14);
+    text-align: center;
+}

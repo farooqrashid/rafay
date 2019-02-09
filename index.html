@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CHECK ITEMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="assign10.js"></script>
+ 
+</head>
+<body>
+        <form action="" onsubmit="onSubmitHandler(event)">   
+  <div class="con1-container">
+    <div class="row" >
+            <div class="col-md-12 col1" >
+                <h2 id="main"><img src="images/checkbox.png" alt="Image" height="25px" width="25px">
+                    Check all the items you want to order :</h2>
+            </div>
+    </div>
+    <div class="row row2" >
+            <div class="col-md-5" >Item name : </div>
+                    <div class="col-md-2" ></div>
+                        <div class="col-md-3" >Qty</div>
+                        <div class="col-md-1" >Price</div>
+                        
+               
+            </div>
+            <div class="row row2" >
+                    <div class="col-md-5" >
+                            <input type="checkbox" name="" value="" id="book-check"> TesT Book
+                    </div>
+                            <div class="col-md-2" ></div>
+                                <div class="col-md-3" ><input type="number" id="book-input" value="2"></div>
+                                <div class="col-md-1" >$ 20</div>
+                                
+                       
+                    </div>
+                    <div class="row row2" >
+                            <div class="col-md-5" >
+                                    <input type="checkbox" name="" value="" id="shirt-check"> TesT Adult Shirt
+                            </div>
+                                    <div class="col-md-2" ></div>
+                                        <div class="col-md-3" ><input type="number" id="shirt-input" value="2"></div>
+                                        <div class="col-md-1" >$ 20</div>
+                                        
+                               
+                            </div>
+                            <div class="row row2" >
+                                    <div class="col-md-5" >
+                                            <input type="checkbox" name="" value="" id="brecelet-check"> TesT Adult Bracelet
+                                    </div>
+                                            <div class="col-md-2" ></div>
+                                                <div class="col-md-3" ><input type="number" id="brecelet-input" value="2"></div>
+                                                <div class="col-md-1" >$ 10</div>
+                                                
+                                       
+                                    </div>
+    </div>
+    <div class="con1-container">
+        <div class="row">
+            <div class="col-12 result-line">
+                <span id="res">Total order amount: <h5 id="output-h"></h5></span> <input type="submit" value="CALCULATE" id="submit-btn">
+            </div>
+        </div>
+        <div class="row last-row">
+            <div class="col-12">
+                <h5 id="concession-h"></h5>
+            </div>
+        </div>
+    </div>
+
+</form>
+   
+    </body>
+    </html>
